@@ -68,3 +68,9 @@ class Dog {
   
   const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
   const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
+
+  //EXAMPLE OF METHOD CALLS:
+
+  console.log(surgeonCurry.name) // Curry
+surgeonCurry.takeVacationDays(3)
+console.log(surgeonCurry.remainingVacationDays) //17
