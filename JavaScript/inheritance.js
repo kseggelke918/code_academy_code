@@ -17,33 +17,17 @@ class HospitalEmployee {
     }
   }
 
+  class Nurse extends HospitalEmployee {
+    constructor(name, certifications){
+      super(name)
+      this._certifications = certifications
+    }
+  }
+  
+  const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics'])
+  
+  
 
 
 
-// class Doctor {
-//     constructor(name, insurance) {
-//       this._name = name;
-//       this._insurance = insurance;
-//       this._remainingVacationDays = 20;
-//     }
-  
-//     takeVacationDays(days) {
-//       this._remainingVacationDays = this._remainingVacationDays - days
-//     }
-//   }
-  
-//   class Nurse {
-//     constructor(name, certifications) {
-//       this._name = name; 
-//       this._certifications = certifications
-//       this._remainingVacationDays = 20
-//     }
-  
-//     takeVacationDays(days) {
-//       this._remainingVacationDays = this._remainingVacationDays - days
-//     }
-  
-//     addCertification() {
-      
-//     }
-//   }
+
