@@ -31,4 +31,14 @@ public class Compiling {
 // An unseccessful compilation produces a list of error and non .class
 // file is made until the errors are corrected and the compile command is run again
 
+// If a file compiles successfully, the javac filename.java command produces 
+// a executable class: FileName.cass which means we can run this program
+// from the terminal with the command: java FileName
+
+// After successfully compiling, you end up with 2 files: 
+// 1. FileName.java - the original file with the Java Syntax
+// 2. FileName.class - the compiled filed with Java bytecode, ready to 
+//    be executed by the Java Virtual Machine
+
+// EXECUTE COMPILED CLASS WITH: java FileName
 
