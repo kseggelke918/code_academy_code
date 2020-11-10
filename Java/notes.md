@@ -16,3 +16,10 @@ Guidelines for how to write Java programs:
 * Java is a compiled language 
     - Compiling catches mistakes in our code 
     - Compilers transform code into an executable class
+
+* Variables
+    - variable names are case sensitve meaning that myHeight and myheight are 2 different variables.
+    - must start with a valid letter, or a $, or a _
+    - no other sympols or numbers can begin a variable name 
+    - one word variable names start with a lowercase letter
+    - variable names with more than one word, the first letter is lowercase while the beginning letter of each subsequent word is capitalized. - camelCase
