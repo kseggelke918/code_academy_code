@@ -9,3 +9,4 @@ public class Char {
 }
 // can hold any character like a letter, space, punctionation, etc.
 // MUST BE SURROUNDED BY SINGLE QUOTES ''
+// Only holds one character
