@@ -20,9 +20,17 @@ public class RelationalOperators {
         double updatedBalance = secondBalance + amountToDeposit; 
         boolean balanceHasChanged = balance != updatedBalance;
         // holds true b/c balance does not equal the updated balance
+
+        // much like < >, you can use <= and >= to be inclusive
+        double secondPayCheckAmount = 620; 
+        double secondCalculatedPaycheck = 15.50 * 40; 
+        System.out.println(secondPayCheckAmount >= secondCalculatedPaycheck);
+        // would return true since they are equal
+
+
     }
     
 }
 
 // Java has relational operators for numeric datatypes that 
-// make boolean comparisons < > == !=
+// make boolean comparisons < > == != >= <=
