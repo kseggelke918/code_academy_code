@@ -22,6 +22,7 @@ public class Car {
     // instance
     public Car(String carColor) {
         // instance fields available in the scope of the constructor method
+        // don't need to specify data type b/c we already did on line 19
         color = carColor;
     }
 
@@ -34,6 +35,12 @@ public class Car {
 
 // To create a new car, need the parameter now: 
 // new Car("blue");
+// Car ferrari = new Car("red")
+// object ferrari holds the sate of color as an instance field references the value "red"
+// access the value of the field using dot notation: ferrari.color; 
+
+// The type of the value given to the invocation must match the type delcared
+// in the parameter
 
 
 // Fields are a type of state each instance will possess.  One instnce may have
