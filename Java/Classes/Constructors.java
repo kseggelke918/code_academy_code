@@ -25,5 +25,9 @@ public class Constructors {
     
 }
 
+// when printing out an instance you'll receive something like: Store@6dafd8jk
+// Store refers to the class and the @6dafd8jk refers to the location in the 
+// computer's memory
+
 //create objects (instances of a class) using a constructor method.  The
 // constructor is defined within the class
