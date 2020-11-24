@@ -18,8 +18,11 @@ public class Car {
     // available for assignment inside the constructor
     String color; 
 
-    public Car() {
+    // add in a parameter to the constructor that can be used to assign to the 
+    // instance
+    public Car(String carColor) {
         // instance fields available in the scope of the constructor method
+        color = carColor;
     }
 
     public static void main(String[] args) {
@@ -28,6 +31,10 @@ public class Car {
 }
 
 */ 
+
+// To create a new car, need the parameter now: 
+// new Car("blue");
+
 
 // Fields are a type of state each instance will possess.  One instnce may have
 // color=red and another may be blue, etc.
