@@ -32,8 +32,8 @@ public class Car {
 
     public static void main(String[] args) {
         // body of main method
-        car ferrari = new Car("red", true, 27);
-        car renault = new Car("blue", falce, 70);
+        Car ferrari = new Car("red", true, 27);
+        Car renault = new Car("blue", falce, 70);
 
         System.out.println(renault.isRunning);
         // false 
