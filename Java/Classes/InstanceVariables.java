@@ -17,26 +17,37 @@ public class Car {
     // the DECLARATION is within the class and the instance variable will be 
     // available for assignment inside the constructor
     String color; 
+    boolean isRunning; 
+    int velocity;
 
     // add in a parameter to the constructor that can be used to assign to the 
     // instance
-    public Car(String carColor) {
+    public Car(String carColor, boolean carRunning, int milesPerHour) {
         // instance fields available in the scope of the constructor method
         // don't need to specify data type b/c we already did on line 19
         color = carColor;
+        isRunning = carRunning; 
+        velocity = milesPerHour;
     }
 
     public static void main(String[] args) {
         // body of main method
+        car ferrari = new Car("red", true, 27);
+        car renault = new Car("blue", falce, 70);
+
+        System.out.println(renault.isRunning);
+        // false 
+        System.out.println(ferrari.velocity);
+        // 27 
     }
 }
 
 */ 
 
 // To create a new car, need the parameter now: 
-// new Car("blue");
+
 // Car ferrari = new Car("red")
-// object ferrari holds the sate of color as an instance field references the value "red"
+// object ferrari holds the state of color as an instance field references the value "red"
 // access the value of the field using dot notation: ferrari.color; 
 
 // The type of the value given to the invocation must match the type delcared
