@@ -1,6 +1,8 @@
 package Classes;
 
 public class InstanceVariables {
+    // public = other classes can access this method
+    // void = means there is no specific output from the method
     public static void main(String[] args) {
 
     }
