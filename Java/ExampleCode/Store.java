@@ -21,7 +21,15 @@ public class Store {
         // program tasks go here
         // main() lists the tasks to be performed by the program 
         // can create instances in the main method
-        // main() runs when we execute the compiled ClassSyntax.class fle
+        // main() runs when we execute the compiled Store.class file
+
+        // create an instance of the Store class
+        Store lemonadeStand = new Store("Lemonade");
+        // call advertise method on the instance created above
+        lemonadeStand.advertise();
+        // now the output would print
 
     }
 }
+
+// methods in the class are available to be called on any class object we create
