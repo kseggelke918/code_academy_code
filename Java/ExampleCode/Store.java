@@ -20,6 +20,11 @@ public class Store {
         System.out.println("Welcome to the store, " + customer + "!");
     }
 
+    public void increasePrice(double priceToAdd){
+        double newPrice = price + priceToAdd; 
+        price = newPrice; 
+    }
+
     // main method - always have to have one
     public static void main(String[] args){
         // program tasks go here
@@ -33,7 +38,7 @@ public class Store {
         lemonadeStand.advertise();
         // now the output would print
         lemonadeStand.greetCustomer("Katie");
-
+        lemonadeStand.increasePrice(1.5);
     }
 }
 
