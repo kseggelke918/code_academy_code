@@ -16,6 +16,10 @@ public class Store {
         System.out.println("Selling " + productType + "!");
     }
 
+    public void greetCustomer(String customer) {
+        System.out.println("Welcome to the store, " + customer + "!");
+    }
+
     // main method - always have to have one
     public static void main(String[] args){
         // program tasks go here
@@ -28,6 +32,7 @@ public class Store {
         // call advertise method on the instance created above
         lemonadeStand.advertise();
         // now the output would print
+        lemonadeStand.greetCustomer("Katie");
 
     }
 }
