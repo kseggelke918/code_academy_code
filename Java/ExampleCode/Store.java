@@ -33,3 +33,6 @@ public class Store {
 }
 
 // methods in the class are available to be called on any class object we create
+
+// method scope prevents us from using variables declared in one method in another method.  
+// If we want to access that information, we can send it to the method via parameters.
