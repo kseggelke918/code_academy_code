@@ -4,10 +4,12 @@ public class Store {
     // instance fields
     // define variable for constructor
     String productType; 
+    double price;
 
     // constructor method 
-    public Store(String product) {
+    public Store(String product, double initialPrice) {
         productType = product;
+        price = initialPrice; 
     }
 
     // regular method
@@ -25,6 +27,11 @@ public class Store {
         price = newPrice; 
     }
 
+    public double getPriceWithTax(){
+        double totalPrice = price + price * 0.08;
+        return totalPrice; 
+    }
+
     // main method - always have to have one
     public static void main(String[] args){
         // program tasks go here
@@ -39,6 +46,11 @@ public class Store {
         // now the output would print
         lemonadeStand.greetCustomer("Katie");
         lemonadeStand.increasePrice(1.5);
+
+        // call the getPriceWithTax() method on the object with () after the method name
+        // because the method has a return value, the lemonadePrice variable will be equal to that value
+        double lemonadePrice = lemonadeStand.getPriceWithTax();
+        System.out.println(lemonadePrice);
     }
 }
 
