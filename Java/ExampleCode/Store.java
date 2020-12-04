@@ -40,7 +40,8 @@ public class Store {
         // main() runs when we execute the compiled Store.class file
 
         // create an instance of the Store class
-        Store lemonadeStand = new Store("Lemonade");
+        Store lemonadeStand = new Store("Lemonade", 3.75);
+        Store cookieShop = new Store("Cookies", 5);
         // call advertise method on the instance created above
         lemonadeStand.advertise();
         // now the output would print
@@ -51,6 +52,9 @@ public class Store {
         // because the method has a return value, the lemonadePrice variable will be equal to that value
         double lemonadePrice = lemonadeStand.getPriceWithTax();
         System.out.println(lemonadePrice);
+
+        System.out.println(lemonadeStand);
+        System.out.println(cookieShop);
     }
 }
 
