@@ -12,11 +12,14 @@ public class SavingsAccount {
         // Add amount to the balance 
         double updatedBalance = balance + amountToDeposit;
         balance = updatedBalance; 
-
+        System.out.println("You just deposited " + amountToDeposit + " so your balance is now " + balance);
     }
 
     public void withdraw(double amountToWithdraw) {
         // subtract amountToWithdraw from balance
+        double updatedBalance = balance - amountToWithdraw;
+        balance = updatedBalance; 
+        System.out.println("You just withdrew " + amountToWithdraw + " so your new balance is now " + balance);
     }
 
     public static void main(String[] args){
