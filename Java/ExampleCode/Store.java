@@ -32,6 +32,11 @@ public class Store {
         return totalPrice; 
     }
 
+    //public means a public method - String is the datatype being returned from the method
+    public String toString(){
+        return "This store sells " + productType + " at a price of " + price + ".";
+    }
+
     // main method - always have to have one
     public static void main(String[] args){
         // program tasks go here
