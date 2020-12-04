@@ -30,5 +30,14 @@ public class Car {
         System.out.println(numTires); 
         // would print 4
         myCar.startRadio("Mediation Station");
+
+        System.out.println(myCar);
+
     }
+
+    // this method will make the commant System.out.println(myCar) as "This is a _color_ car!" Which tells us
+    // about the object myCar
+    public String toString() {
+        return "This is a " + color + " car!";
+     }
 }
