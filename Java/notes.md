@@ -23,3 +23,15 @@ Guidelines for how to write Java programs:
     - no other sympols or numbers can begin a variable name 
     - one word variable names start with a lowercase letter
     - variable names with more than one word, the first letter is lowercase while the beginning letter of each subsequent word is capitalized. - camelCase
+
+* Defining a method: Methods have a method signature that declares their return type, name and parameters
+
+* Calling a method: Methods are invoked with a . and ()
+
+* Parameters: inputs to the method and their types are delcared in parantheses in the method signature
+
+* Changing Instance Fields: Methods can be used to change the value of an instance field
+
+* Scope: Variables only exist within the domain that they are created in
+
+* Return: They type of the variables that are output are declared in the method signature
