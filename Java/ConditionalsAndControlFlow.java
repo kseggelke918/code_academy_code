@@ -27,6 +27,9 @@ public class ConditionalsAndControlFlow {
        if (numberOfItemsInCart > 12){
            System.out.println("Express checkout not available");
        }
+
+       // if a conditional is brief, can omit the {}
+       if (true) System.out.println("Brevity is the soul of wit");
    } 
 }
 
