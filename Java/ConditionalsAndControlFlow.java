@@ -30,6 +30,15 @@ public class ConditionalsAndControlFlow {
 
        // if a conditional is brief, can omit the {}
        if (true) System.out.println("Brevity is the soul of wit");
+
+       // can use if/else if you want more than one possible block of code to run
+       if (hasPrereqs) {
+           // this runs if true
+           // enroll in course
+       } else {
+           // this runs if false
+           // enroll in prereq
+       }
    } 
 }
 
