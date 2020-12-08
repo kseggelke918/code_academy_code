@@ -77,6 +77,8 @@ public class ConditionalsAndControlFlow {
         
         }
         // prints: C
+        // The above statement has 2 conditionals that evaluate to true.  Because testScore >= 70 comes first, 
+        // the first code runs -- only one block of code will ever run
    } 
 }
 
