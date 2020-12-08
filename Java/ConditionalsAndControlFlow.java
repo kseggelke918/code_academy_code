@@ -39,6 +39,44 @@ public class ConditionalsAndControlFlow {
            // this runs if false
            // enroll in prereq
        }
+
+       String course = "Theatre";
+
+       // first condition to evaluate true will run, if none are true, else will run
+       if(course.equals("Biology")) {
+           // enroll in biology
+       } else if (course.equals("Algebra"){
+           // enroll in Algebra
+       } else if (course.equals("Theatre")) {
+            // enroll in theatre course
+       } else {
+           System.out.println("Course not found!");
+       }
+
+        int testScore = 72;
+        
+        if (testScore >= 90) {
+        
+        System.out.println("A");
+        
+        } else if (testScore >= 80) {
+        
+        System.out.println("B");
+        
+        } else if (testScore >= 70) {
+        
+        System.out.println("C");
+        
+        } else if (testScore >= 60) {
+        
+        System.out.println("D");
+        
+        } else {
+        
+        System.out.println("F");
+        
+        }
+        // prints: C
    } 
 }
 
