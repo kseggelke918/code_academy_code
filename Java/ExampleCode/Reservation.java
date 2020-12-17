@@ -8,9 +8,13 @@ public class Reservation {
         boolean isConfirmed;
         
         public Reservation(int count, int capacity, boolean open) {
-          guestCount = count;
-              restaurantCapacity = capacity;
-              isRestaurantOpen = open;
+            guestCount = count;
+            restaurantCapacity = capacity;
+            isRestaurantOpen = open;
+
+            // Write conditional statement below
+            if (count < 1 || count > 8) {
+            System.out.println("Invalid reservation!");
         }  
         
         public void confirmReservation() {
